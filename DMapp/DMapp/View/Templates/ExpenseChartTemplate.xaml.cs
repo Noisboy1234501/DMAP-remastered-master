@@ -2,19 +2,19 @@
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
-namespace DMapp.Views.Dashboard
+namespace DMapp.View.Templates
 {
     /// <summary>
-    /// My wallet page.
+    /// Navigation tile template.
     /// </summary>
     [Preserve(AllMembers = true)]
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MyWalletPage : ContentPage
+    public partial class ExpenseChartTemplate : Grid
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="MyWalletPage"/> class.
+        /// Initializes a new instance of the <see cref="ExpenseChartTemplate"/> class.
         /// </summary>
-        public MyWalletPage()
+		public ExpenseChartTemplate()
         {
             InitializeComponent();
         }

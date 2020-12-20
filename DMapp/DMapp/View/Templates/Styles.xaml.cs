@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
-namespace DMapp.Views.Templates
+namespace DMapp.View.Templates
 {
     /// <summary>
     /// Class helps to reduce repetitive markup, and allows an apps appearance to be more easily changed.

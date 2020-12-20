@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ResourceDictionary
-    x:Class="DMapp.Views.Templates.Styles"
-    xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
     xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
     xmlns:rating="clr-namespace:Syncfusion.SfRating.XForms;assembly=Syncfusion.SfRating.XForms"
-    xmlns:graphics="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms">
-
+    xmlns:graphics="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    x:Class="DMapp.View.Templates.Styles">
+    
     <Color x:Key="Gold">#fcbc0f</Color>
     <Color x:Key="Steel">#788396</Color>
     <Color x:Key="FacebookBlue">#4267B2</Color>

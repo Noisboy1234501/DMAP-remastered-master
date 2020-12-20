@@ -8,9 +8,9 @@
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:converter="clr-namespace:DMapp.Converters"
              xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-             xmlns:template="clr-namespace:DMapp.Views.Templates"
-             xmlns:viewModel="clr-namespace:DMapp.ViewModels.Dashboard"
-             x:Class="DMapp.Views.Dashboard.MyWalletPage"
+             xmlns:template="clr-namespace:DMapp.View.Templates"
+             xmlns:viewModel="clr-namespace:DMapp.ViewModel.Dashboard"
+             x:Class="DMapp.View.Dashboard.MyWalletPage"
              BackgroundColor="{DynamicResource Gray-White}"
              NavigationPage.HasNavigationBar="False">
 
@@ -23,11 +23,6 @@
             <converter:BooleanToStringConverter x:Key="BoolToStringConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
-
-    <!--  Binding context for my wallet page  -->
-    <ContentPage.BindingContext>
-        <viewModel:MyWalletViewModel />
-    </ContentPage.BindingContext>
 
     <ContentPage.Content>
         <ScrollView>

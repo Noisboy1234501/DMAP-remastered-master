@@ -6,7 +6,7 @@ using DMapp.Models.Dashboard;
 using Model = DMapp.Models.Dashboard.Transaction;
 using System.Linq;
 
-namespace DMapp.ViewModels.Dashboard
+namespace DMapp.ViewModel.Dashboard
 {
     /// <summary>
     /// ViewModel for my wallet page.
@@ -78,7 +78,7 @@ namespace DMapp.ViewModels.Dashboard
             set
             {
                 this.weekListItems = value;
-                this.NotifyPropertyChanged();
+                OnPropertyChanged();
             }
         }
 
@@ -95,7 +95,7 @@ namespace DMapp.ViewModels.Dashboard
             set
             {
                 this.monthListItems = value;
-                this.NotifyPropertyChanged();
+                OnPropertyChanged();
             }
         }
 
@@ -112,7 +112,7 @@ namespace DMapp.ViewModels.Dashboard
             set
             {
                 this.yearListItems = value;
-                this.NotifyPropertyChanged();
+                OnPropertyChanged();
             }
         }
 
@@ -129,7 +129,7 @@ namespace DMapp.ViewModels.Dashboard
             set
             {
                 this.listItems = value;
-                this.NotifyPropertyChanged();
+                OnPropertyChanged();
             }
         }
 
@@ -172,7 +172,7 @@ namespace DMapp.ViewModels.Dashboard
             set
             {
                 this.totalBalance = value;
-                this.NotifyPropertyChanged();
+                OnPropertyChanged();
             }
         }
         #endregion

@@ -7,8 +7,7 @@
       xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
       xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
       xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
-      x:Class="DMapp.Views.Templates.ExpenseChartTemplate">
-
+      x:Class="DMapp.View.Templates.ExpenseChartTemplate">
     <Grid.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
