@@ -12,7 +12,7 @@
              xmlns:viewModel="clr-namespace:DMapp.ViewModel.Dashboard"
              x:Class="DMapp.View.Dashboard.MyWalletPage"
              BackgroundColor="{DynamicResource Gray-White}"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="True">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -23,7 +23,9 @@
             <converter:BooleanToStringConverter x:Key="BoolToStringConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
+    
 
+    
     <ContentPage.Content>
         <ScrollView>
             <Grid RowSpacing="0" ColumnSpacing="0">

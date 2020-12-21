@@ -1,9 +1,8 @@
-﻿using DMapp.Models;
+﻿
 using DMapp.View;
-using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
-using System;
+
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+
 
 namespace DMapp
 {
